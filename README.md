@@ -1,6 +1,6 @@
 ### Alan Strait
 
-![Telluride](images/telluride_oss.png)
+![Telluride](images/telluride_oss_2.png)
 
 <!--
 **alanStrait/alanStrait** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
