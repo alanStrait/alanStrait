@@ -2,7 +2,7 @@
 
 ERTS / Erlang / OTP / Elixir is a destination technology.
 
-Telluride is a set of three public repositories that collaborate through Rabbit MQ to exercise and observe Broadway, an Elixir data ingestion and data processing pipeline library.  The below image depicts how messages flow between these three repositories.
+Telluride is a set of three public repositories that collaborate through Rabbit MQ to exercise and observe Broadway, an Elixir data ingestion and data processing pipeline library.  The below image depicts how messages flow between instances of these three repositories.
 
 The purpose of Telluride is to have an example that visualizes the results of batch processing sensor data as well as the effect of changing configuration on identifying bottlenecks and monitoring throughput.
 
