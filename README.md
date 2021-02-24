@@ -1,6 +1,6 @@
 ## Alan Strait
 
-ERTS / Erlang / OTP / Elixir is a destination technology.
+ERTS / Erlang / OTP / Elixir is destination technology.
 
 Telluride is a set of three public repositories that collaborate through Rabbit MQ to exercise and observe Broadway, an Elixir data ingestion and data processing pipeline library.  The below image depicts how messages flow between instances of these three repositories.
 
