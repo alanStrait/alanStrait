@@ -1,6 +1,12 @@
-### Alan Strait
+## Alan Strait
 
-![Telluride](images/telluride_oss_2.png)
+ERTS / Erlang / OTP / Elixir is a destination technology.
+
+Telluride is a set of three public repositories that collaborate through Rabbit MQ to exercise and observe Broadway, an Elixir data ingestion and data processing pipeline library.  The below image depicts how messages flow between these three repositories.
+
+The purpose of Telluride is to have an example that visualizes the results of batch processing sensor data as well as the effect of changing configuration on identifying bottlenecks and monitoring throughput.
+
+![Telluride](images/telluride_oss.png)
 
 <!--
 **alanStrait/alanStrait** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
