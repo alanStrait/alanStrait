@@ -29,7 +29,7 @@ The lines represent communication between applications.
 ## Flylight Applications
 
 ### fly-cli
-**fly-cli** is an initial `Go` implementation of a CLI.  This is the primary application that lives in the client or subscriber's world and its' name had to changed so that it would not conflict with the fly.io `flyctl` application installed locally.  **This implementation is a first cut at using Go and does not represent the fly.io implementation**.  
+**fly-cli** is an initial `Go` implementation of a CLI.  This is the primary application that lives in the client or subscriber's world and its' name had to be changed so that it would not conflict with the fly.io `flyctl` application installed locally.  **This implementation is a first cut at using Go and does not represent the fly.io implementation**.  
 
 Currently there are two commands that can be issued from `fly-cli`, 
 - `./fly-cli regions` 
