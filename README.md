@@ -1,4 +1,20 @@
 # Flylight
+
+## TL;DR
+A summary description of the `fly-light` monorepo.
+
+### fly-light as Monorepo
+
+-`fly-light` is a monorepo hosting multiple collaborating projects.
+  - `ex_scratch`, a mix project to work out Elixir related questions.
+  - `go-scratch`, a Go project to work out Go related questions.
+  - `rust-scratch`, a Rust project to work out Rust related questions.
+  - `fly-cli`, a Go CLI project.
+  - `fly-proxy`, a Rust project providing proxy services.
+  - `fly_global`, a mix project providing business orchestration services to simulate server resources.
+  - `fly_kv`, a mix project providing an ephemeral key-value store in the spirit of Hashicorp's Consul key-value store.
+  - `fly_dash`, a mix project providing Phoenix LiveView dashboard view of regions and machines.
+
 ## Learning Modern Distributed System Skills by Emulating fly.io
 
 In this era of AI-generated code, including fly.io's `Phoenix.new`, it is a relevant question to ask: as a fullstack engineer, what should I know?  
@@ -88,15 +104,3 @@ Key points to make about `launch and allocate` include:
 - `FlyD` asynchronously processes all of the allocations for the machine by conflating them into a single request that is used to update `fly-kv`.
 - The `kv-store`, called `Store` in the code, asynchrously publishes the change to a PubSub topic.
 - The PubSub topic is updated to the LiveView SPA for dashboard display.
-
-### fly-light as Monorepo
-
-`fly-light` is a monorepo hosting multiple collaborating projects.
-- `ex_scratch`, a mix project to work out Elixir related questions.
-- `go-scratch`, a Go project to work out Go related questions.
-- `rust-scratch`, a Rust proejct to work out Rust related questions.
-- `fly-cli`, a Go CLI project.
-- `fly-proxy`, a Rust project providing proxy services.
-- `fly_global`, an mix project providing business orchestration services to simulate server resources.
-- `fly_kv`, a mix project providing an ephemeral key-value store in the spirit of Hashicorp's Consul key-value store.
-- `fly_dash`, a mix project providing Phoenix LiveView dashboard view of regions and machines.
