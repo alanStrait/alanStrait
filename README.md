@@ -50,7 +50,7 @@ The lines represent communication between applications.
 Currently there are two commands that can be issued from `fly-cli`, 
 - `./fly-cli regions` 
   - Returns all of the regions managed by fly.io.
-- `./fly-cli --vm-region SIN --vm-memory 6 --vm-cores 4` 
+- `./fly-cli --vm-region SIN --vm-memory 6 --vm-cores 4 launch` 
   - This command asks for a `machine` or `VM` to be allocated in the Singapore region that has 6GB of memory and four cores.
   - As I understand it, the fly.io allocation process will find and start the machine in the time that the request-response takes to run, which is the same latency as a normal request-response.
 
